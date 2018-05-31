@@ -1,22 +1,25 @@
 {
-  "name": "nauka_npm",
+  "name": "zadanie_13-6",
   "version": "1.0.0",
-  "description": "testowy plik package.json do nauki npm'a",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "nauka",
-    "npm",
-    "node"
-  ],
-  "author": "krystek",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krystian2017/zadanie_13-6.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krystian2017/zadanie_13-6/issues"
+  },
+  "homepage": "https://github.com/Krystian2017/zadanie_13-6#readme",
   "dependencies": {
     "colors": "^1.3.0",
-    "stat-mode": "^0.2.2"
-  },
-  "devDependencies": {}
+    "formidable": "^1.2.1"
+  }
 }
